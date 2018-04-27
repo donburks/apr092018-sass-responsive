@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <nav>
+      <h1>Sass!</h1>
+      <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact</li>
+      </ul>
+    </nav>
+    <div class="row">
+      <div class="col five">
+        <h1><%= title %></h1>
+      </div>
+      <div class="col six">
+        <p>Welcome to <%= title %></p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col four">
+        &nbsp;
+      </div>
+      <div class="col four">
+        <div class="trafficLight">
+          <button class="stop">Stop</button><br />
+          <button class="caution">Caution</button><br />
+          <button class="go">Go</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

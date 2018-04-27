@@ -1,0 +1,16 @@
+@import 'colors';
+@import 'buttons';
+@import 'navbar';
+@import 'grid';
+
+body {
+  background-color: $bgColour;
+  color: $fgColour;
+  padding: 100px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+a {
+  color: $linkColour;
+}

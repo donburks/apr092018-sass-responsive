@@ -1,0 +1,21 @@
+nav {
+  background-color: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+
+  h1 {
+    float: left;
+    min-width: 20%;
+    color: white;
+  }
+
+  ul {
+    float: right;
+    li {
+      display: inline-block;
+      min-width: 100px; 
+    }
+  }
+}
